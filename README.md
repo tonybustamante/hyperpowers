@@ -1,4 +1,10 @@
-# Hyperpowers
+# Hyperpowers (with beads)
+
+> **Fork notice — this is not the original Hyperpowers.**
+>
+> This repository is a fork of [withzombies/hyperpowers](https://github.com/withzombies/hyperpowers) maintained by Anthony Bustamante. In commit [`ebfd2b9` ("Migrate Hyperpowers to markdown task docs")](https://github.com/withzombies/hyperpowers/commit/ebfd2b9), upstream removed its `bd` (beads) task-tracking integration and replaced it with local markdown task directories. That workflow doesn't fit how I use the plugin, so this fork **diverged from upstream at commit `3242d4b`** — the last commit before the migration — and **no longer tracks changes from the original**. Upstream is not the source of truth for anything in this repository.
+>
+> If you want the markdown-task-doc version of the plugin, install [withzombies/hyperpowers](https://github.com/withzombies/hyperpowers) instead.
 
 Strong guidance for Claude Code as a software development assistant.
 
@@ -199,10 +205,12 @@ Contributions are welcome! This plugin is inspired by [obra/superpowers](https:/
 
 MIT
 
-## Author
+## Authors
 
-Ryan Stortz (ryan@withzombies.com)
+- **Fork maintainer:** Anthony Bustamante (anthony.bustamante@gmail.com)
+- **Original author:** Ryan Stortz (ryan@withzombies.com) — created upstream [withzombies/hyperpowers](https://github.com/withzombies/hyperpowers), from which this project was forked at commit `3242d4b` and has since diverged.
 
 ## Acknowledgments
 
-Inspired by [obra/superpowers](https://github.com/obra/superpowers) - a strong foundation for structured development workflows
+- Originally created by Ryan Stortz as [withzombies/hyperpowers](https://github.com/withzombies/hyperpowers).
+- Inspired by [obra/superpowers](https://github.com/obra/superpowers) — a strong foundation for structured development workflows.
